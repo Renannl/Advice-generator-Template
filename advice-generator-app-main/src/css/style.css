@@ -13,7 +13,6 @@ body{
     cursor: url('data:image/svg+xml;utf8,<svg height="32" width="32" xmlns="http://www.w3.org/2000/svg"><circle cx="16" cy="16" r="8" fill="white" /></svg>') 16 16, auto;
 }
 
-
 .card {
     background-color: hsl(217, 19%, 24%);
     display: flex;
@@ -61,7 +60,7 @@ body{
     cursor: pointer;
     box-shadow: 0 5px 15px hsl(150, 100%, 66%),  0 -5px 15px hsl(150, 100%, 66%);
     cursor: url('data:image/svg+xml;utf8,<svg height="32" width="32" xmlns="http://www.w3.org/2000/svg"><circle cx="16" cy="16" r="8" fill="white" /></svg>') 16 16, auto;
-  }
+}
 
 .button:active {
     color: #53FFAB;
