@@ -1,0 +1,70 @@
+main {
+    font-family: "Manrope";
+    font-weight: 800;
+    color: hsl(193, 38%, 86%);
+}
+
+body{
+    background-color: hsl(218, 23%, 16%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    cursor: url('data:image/svg+xml;utf8,<svg height="32" width="32" xmlns="http://www.w3.org/2000/svg"><circle cx="16" cy="16" r="8" fill="white" /></svg>') 16 16, auto;
+}
+
+.card {
+    background-color: hsl(217, 19%, 24%);
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    padding: 20px;
+    border-radius: 5%;
+}
+
+.advice-number {
+    color:  hsl(150, 100%, 66%);
+    font-weight: 400;
+    text-align: center;
+    font-size: small;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    margin-top: 10px;
+}
+
+.advice-text {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.design {
+    align-self: center;
+    margin-top: 10px;
+}
+
+.button {
+    background-color: hsl(150, 100%, 66%);
+    align-self: center;
+    border-radius: 50%;
+    border-style: none;
+    width: 60px;
+    height: 60px;
+    translate: 0 80%;
+}
+
+.button:hover {
+    color: #53FFAB;
+    cursor: pointer;
+    box-shadow: 0 5px 15px hsl(150, 100%, 66%),  0 -5px 15px hsl(150, 100%, 66%);
+    cursor: url('data:image/svg+xml;utf8,<svg height="32" width="32" xmlns="http://www.w3.org/2000/svg"><circle cx="16" cy="16" r="8" fill="white" /></svg>') 16 16, auto;
+}
+
+.button:active {
+    color: #53FFAB;
+    cursor: url('data:image/svg+xml;utf8,<svg height="32" width="32" xmlns="http://www.w3.org/2000/svg"><circle cx="16" cy="16" r="8" fill="white" /></svg>') 16 16, auto;
+    box-shadow: 0 5px 15px hsl(150, 100%, 66%),  0 -5px 15px hsl(150, 100%, 66%);
+    transform: scale(0.9);
+}
